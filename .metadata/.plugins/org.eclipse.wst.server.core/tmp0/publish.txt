@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Mon Jan 22 23:47:00 KST 2018
+org.eclipse.jst.jee.server\:DataBase=C\:\\Program Files\\Apache Software Foundation\\Tomcat 8.5\\wtpwebapps\\DataBase
+org.eclipse.jst.jee.server\:jsp_18_database1=C\:\\Program Files\\Apache Software Foundation\\Tomcat 8.5\\wtpwebapps\\jsp_18_database1

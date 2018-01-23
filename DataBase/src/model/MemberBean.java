@@ -1,6 +1,6 @@
 package model;
 
-//저버 반 쿨랴수
+//자바 빈 클래스
 public class MemberBean {
 	
 	private String id;

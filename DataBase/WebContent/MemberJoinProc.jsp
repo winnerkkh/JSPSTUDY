@@ -40,6 +40,10 @@
 		MemberDAO mdao = new MemberDAO();
 		//자바빈으로 저장한 모든값을(id값에  mbean으로 저장된 모든 속성을) mdao에 insert메소드에 그대로 대입
 		mdao.insertMember(mbean);
+		
+		
+		//회원 가입이 되었다면 회원 정보를 보여주는 페이지로 이동시킴
+		response.sendRedirect("MemberList.jsp");
 	%>
 	
 

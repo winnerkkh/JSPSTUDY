@@ -1,0 +1,26 @@
+<%@page import="model.MemberBean"%>
+<%@page import="model.MemberDAO"%>
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<body>
+
+		<!-- 0. MemberList.jsp에서 넘어온 아이디를 받아옴 -->
+		<!-- 1. 데이터베이스에서   한 회원의 정보를 가져옴 -->
+		<!-- 2. table태그를 이용하여 화면에 회원들의 정보를 출력 -->
+		
+		
+		<%
+			MemberDAO mdao = new MemberDAO();
+			MemberBean mbean = mdao.oneSelectMember;
+		
+		
+		
+		
+		%>
+		
+		
+		
+</body>
+</html>

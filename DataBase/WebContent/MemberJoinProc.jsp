@@ -37,7 +37,7 @@
 		
 		
 		//데이터 베이스클래스 객체 생성
-		MemberDAO mdao = new MemberDAO();
+		MemberDAO mdao = MemberDAO.getInstance();
 		//자바빈으로 저장한 모든값을(id값에  mbean으로 저장된 모든 속성을) mdao에 insert메소드에 그대로 대입
 		mdao.insertMember(mbean);
 		

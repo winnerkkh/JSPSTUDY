@@ -12,7 +12,7 @@
 	<!-- 2. table태그를 이용하여 화면에 회원들의 정보를 출력 -->
 
 	<%
-		MemberDAO mdao = new MemberDAO();
+		MemberDAO mdao = MemberDAO.getInstance();
 
 		//회원들의 정보가 얼마나 저장되어있는지 모르기에 가변길이인  Vector를 이용하여 데이터를 저장해줌
 		Vector<MemberBean> vec = mdao.allSelectMember();

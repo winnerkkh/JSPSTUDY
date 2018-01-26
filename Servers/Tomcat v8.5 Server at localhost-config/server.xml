@@ -149,7 +149,19 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="jsp_18_database1" path="/jsp_05" reloadable="true" source="org.eclipse.jst.jee.server:jsp_18_database1"/><Context docBase="DataBase" path="/DataBase" reloadable="true" source="org.eclipse.jst.jee.server:DataBase"/></Host>
+      
+      
+      	
+      	<!-- 데이타베이스에서 커넥션풀을 사용하겟다고 선언 -->
+		<!--name 어트리뷰트에 아무이름이나 넣으면됨. -->      
+      	<!--auth<==관리자(컨테이너가 관리하겟다는뜻임)  -->
+      	<!-- type은 "javax.sql.DataSource"(데이타소스라는 객체를 이용해서 커넥션풀을 사용하겠다) -->
+      	<!-- driverClassName(어떤 데이타베이스를 이용할껀지) -->
+
+      <!-- <Resource auth="Container" driverClassName="oracle.jdbc.driver.OracleDriver" factory="oracle.jdbc.pool.OracleDataSourceFactory" loginTimeOut="10" maxWait="5000" name="jdbc/pool" password="kh" type="oracle.jdbc.pool.OracleDataSource" url="jdbc:oracle:thin:@localhost:1521:xe" userName="kh"/>  -->
+      
+      
+      <Context docBase="TestDB" path="/TestDB" reloadable="true" source="org.eclipse.jst.jee.server:TestDB"/><Context docBase="DataBase" path="/DataBase" reloadable="true" source="org.eclipse.jst.jee.server:DataBase"/></Host>     
     </Engine>
   </Service>
 </Server>

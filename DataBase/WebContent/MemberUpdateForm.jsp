@@ -11,7 +11,7 @@
 		
 			String id = request.getParameter("id");
 		
-			MemberDAO mdao = new MemberDAO();
+			MemberDAO mdao = MemberDAO.getInstance();
 		
 			MemberBean mbean = mdao.oneSelectMember(id);
 	

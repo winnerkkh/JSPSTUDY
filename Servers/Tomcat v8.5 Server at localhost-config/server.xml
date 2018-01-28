@@ -161,7 +161,7 @@
       <!-- <Resource auth="Container" driverClassName="oracle.jdbc.driver.OracleDriver" factory="oracle.jdbc.pool.OracleDataSourceFactory" loginTimeOut="10" maxWait="5000" name="jdbc/pool" password="kh" type="oracle.jdbc.pool.OracleDataSource" url="jdbc:oracle:thin:@localhost:1521:xe" userName="kh"/>  -->
       
       
-      <Context docBase="TestDB" path="/TestDB" reloadable="true" source="org.eclipse.jst.jee.server:TestDB"/><Context docBase="DataBase" path="/DataBase" reloadable="true" source="org.eclipse.jst.jee.server:DataBase"/></Host>     
+      <Context docBase="TestDB" path="/TestDB" reloadable="true" source="org.eclipse.jst.jee.server:TestDB"/><Context docBase="DataBase" path="/DataBase" reloadable="true" source="org.eclipse.jst.jee.server:DataBase"/><Context docBase="CookieSession" path="/CookieSession" reloadable="true" source="org.eclipse.jst.jee.server:CookieSession"/><Context docBase="JSP2" path="/jsp_05" reloadable="true" source="org.eclipse.jst.jee.server:JSP2"/></Host>     
     </Engine>
   </Service>
 </Server>

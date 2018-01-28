@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
+<center>
 	<table border="1" width="800" align="center">
 
 		<!-- Top  -->
@@ -39,7 +40,7 @@
 		</tr>		
 
 	</table>
-
+</center>
 
 
 

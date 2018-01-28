@@ -1,4 +1,6 @@
 #Tomcat publish data
-#Fri Jan 26 17:06:45 KST 2018
+#Sun Jan 28 02:49:04 KST 2018
 org.eclipse.jst.jee.server\:DataBase=C\:\\Program Files\\Apache Software Foundation\\Tomcat 8.5\\wtpwebapps\\DataBase
+org.eclipse.jst.jee.server\:JSP2=C\:\\Program Files\\Apache Software Foundation\\Tomcat 8.5\\wtpwebapps\\JSP2
 org.eclipse.jst.jee.server\:TestDB=C\:\\Program Files\\Apache Software Foundation\\Tomcat 8.5\\wtpwebapps\\TestDB
+org.eclipse.jst.jee.server\:CookieSession=C\:\\Program Files\\Apache Software Foundation\\Tomcat 8.5\\wtpwebapps\\CookieSession

@@ -19,6 +19,8 @@
 	<section name="quick_assist_proposal_size">
 	</section>
 	<section name="completion_proposal_size">
+		<item value="471" key="size.y"/>
+		<item value="866" key="size.x"/>
 	</section>
 	<section name="DialogBounds_GetterSetterTreeSelectionDialog">
 		<item value="681" key="DIALOG_WIDTH"/>

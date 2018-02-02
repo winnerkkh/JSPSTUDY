@@ -19,7 +19,6 @@ public class MemberDAO {
 		//getInstance public
 		public static MemberDAO getInstance() {
 			if(instance==null) {
-				instance = new MemberDAO();
 			}
 			return instance;
 		}

@@ -6,14 +6,14 @@ public class BoardBean {
 	private int num;
 	private String writer;
 	private String email;
-	private String subjec;
+	private String subject;
 	private String password;
 	private String reg_date;
 	private int ref;
 	private int re_step;
 	private int re_level;
 	private int readcount;
-	private int content;
+	private String content;
 
 	public int getNum() {return num;}
 	public void setNum(int num) {this.num = num;}
@@ -24,8 +24,8 @@ public class BoardBean {
 	public String getEmail() {return email;}
 	public void setEmail(String email) {this.email = email;}
 
-	public String getSubjec() {return subjec;}
-	public void setSubjec(String subjec) {this.subjec = subjec;}
+	public String getSubject() {return subject;}
+	public void setSubject(String subject) {this.subject = subject;}
 
 	public String getPassword() {return password;}
 	public void setPassword(String password) {this.password = password;}
@@ -45,6 +45,6 @@ public class BoardBean {
 	public int getReadcount() {return readcount;}
 	public void setReadcount(int readcount) {this.readcount = readcount;}
 
-	public int getContent() {return content;}
-	public void setContent(int content) {this.content = content;}
+	public String getContent() {return content;}
+	public void setContent(String content) {this.content = content;}
 }

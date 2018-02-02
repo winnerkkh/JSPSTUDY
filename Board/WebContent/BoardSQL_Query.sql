@@ -6,13 +6,16 @@ create sequence board_seq
  start with 1   
  maxvalue 1000;
  
+drop sequence board_seq;
+
+--게시판 테이플 생성
  create table board(
     num number primary key,
     writer varchar2(20),
     email varchar2(50),
     subject varchar2(50),
     password varchar2(10),
-    reg_date sysdate,
+    reg_date date,
     ref number,
     re_step number,
     re_level number,
@@ -20,5 +23,5 @@ create sequence board_seq
     content varchar2(500)
  );
  
-
- 
+drop table board;
+ select * from board;

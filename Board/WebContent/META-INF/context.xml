@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<Context>
+<Resource auth="Container" 
+      driverClassName="oracle.jdbc.driver.OracleDriver" 
+      loginTimeOut="10"
+      maxWait="5000" 
+      name="jdbc/pool" 
+      password="kh" 
+      url="jdbc:oracle:thin:@localhost:1521:xe" 
+      type="oracle.jdbc.pool.OracleDataSource"
+      factory="oracle.jdbc.pool.OracleDataSourceFactory"
+      userName="kh"
+      maxActive="500"
+      maxIdle="100"
+      /> 
+</Context>
